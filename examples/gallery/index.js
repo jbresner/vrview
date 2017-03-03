@@ -16,25 +16,25 @@ var vrView;
 
 // All the scenes for the experience
 var scenes = {
-  petra: {
-    image: 'petra.jpg',
-    preview: 'petra-preview.jpg'
+  mall: {
+    image: 'mall.jpg',
+    preview: 'mall-preview.jpg'
   },
-  christTheRedeemer: {
-    image: 'christ-redeemer.jpg',
-    preview: 'christ-redeemer-preview.jpg'
+  capitol: {
+    image: 'capitol.jpg',
+    preview: 'capitol-preview.jpg'
   },
-  machuPicchu: {
-    image: 'machu-picchu.jpg',
-    preview: 'machu-picchu-preview.jpg'
+  greathalllower: {
+    image: 'great-hall-lower.jpg',
+    preview: 'great-hall-lower-preview.jpg'
   },
-  chichenItza: {
-    image: 'chichen-itza.jpg',
+  greathallupper: {
+    image: 'great-hall-upper.jpg',
     preview: 'chichen-itza-preview.jpg'
   },
-  tajMahal: {
-    image: 'taj-mahal.jpg',
-    preview: 'taj-mahal-preview.jpg'
+  earthtrek: {
+    image: 'earth-trek.jpg',
+    preview: 'earth-trek-preview.jpg'
   },
 };
 
@@ -88,7 +88,7 @@ function onVRViewReady(e) {
     });
   }
 
-  loadScene('petra');
+  loadScene('mall');
 }
 
 function onModeChange(e) {
